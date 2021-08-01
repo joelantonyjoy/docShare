@@ -16,8 +16,7 @@ function App() {
         <Home />
       </Route>
       <Route exact path="/doc">
-      <Redirect
-            to={`/doc/${uuidV4()}`} />
+        <Redirect to={`/doc/${uuidV4()}`} />
       </Route>
       <Route exact path="/doc/:id">
         <TextEditor />
