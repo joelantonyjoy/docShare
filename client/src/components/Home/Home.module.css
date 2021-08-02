@@ -1,0 +1,33 @@
+.app {
+  background-color: #336b87;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.descriptionContainer {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin-bottom: 64px;
+}
+.descriptionContainer h1 {
+  margin: 0;
+  padding: 0;
+}
+.link {
+  background-color: white;
+  color: black;
+  padding: 16px 32px;
+  text-decoration: none;
+}
+.joinContainer {
+  display: flex;
+}
+input {
+  padding: 16px 32px;
+  text-align: center;
+  margin-bottom: 16px;
+}

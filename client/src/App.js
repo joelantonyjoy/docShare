@@ -1,12 +1,12 @@
 import './App.css';
-import Home from './components/Home';
 import {
   BrowserRouter as Router,
   Redirect,
   Route
 } from "react-router-dom";
-import TextEditor from './components/TextEditor';
 import { v4 as uuidV4} from "uuid"
+import Home from './components/Home/index';
+import TextEditor from './components/TextEditor/index';
 
 function App() {
   return (
